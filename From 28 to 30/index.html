@@ -1,0 +1,136 @@
+<!Doctype html>
+
+
+<html lang="en">
+  <head>
+    <title>Task 1</title>
+    <meta charset="UTF-8">
+
+  </head>
+
+  <body background="">
+    <form method="get">
+      <label for="tok" hidden>Token</label>
+      <input type="hidden" name="token" id="tok"
+        value="b92f1fc2fce391ad7af633723afd3055">
+    </div>
+    <div>
+      <label for="ema">Email</label>
+      <br>
+      <input type="email" name="email" id="ema" value="o@o.com" disabled>
+    </div>
+    <br>
+
+    <div>
+      <label for="user">Username</label>
+      <br>
+      <input id="user" type="text" placeholder="Enter Username" required
+        minlength="5" maxlength="20" autofocus>
+    </div>
+    <br>
+    <!--This is The First Checkbox-->
+    <div>
+
+      <div><p><b>Programming Skills</b> </p></div>
+      <div>
+        <div>
+          <input type="checkbox" name="Problem_Solving" id="P_S"
+            value="problem_solving" checked>
+          <label for="P_S">Problem Solving</label>
+        </div>
+
+        <div>
+          <input type="checkbox" name="Logical_Thinking" id="L_T"
+            value="logical_thinking">
+          <label for="L_T">Logical Thinking</label>
+        </div>
+
+        <div>
+          <input type="checkbox" name="Advanced_Search" id="A_S"
+            value="advanced_search">
+          <label for="A_S">Advanced Search</label>
+        </div>
+
+        <div>
+          <input type="checkbox" name="Analysis" id="anla" value="analysis">
+          <label for="anla">Analysis</label>
+        </div>
+
+        <div>
+          <input type="checkbox" name="Planning" id="plan" value="planning">
+          <label for="plan">Planning</label>
+        </div>
+
+      </div>
+      <br>
+
+      <!--This Is The Second Radio-->
+      <div>
+        <p><b>Job Title</b></p>
+        <div>
+          <input type="radio" id="FED" name="job"
+            value="front_end_developer" checked>
+          <label for="FED">Front End Developer</label>
+        </div>
+        <div>
+          <input type="radio" id="BED" name="job"
+            value="back_end_developer">
+          <label for="BED">Back End Developer</label>
+        </div>
+        <div>
+          <input type="radio" id="BA" name="job"
+            value="business_analyst">
+          <label for="BA">Business Analyst</label>
+        </div>
+        <div>
+          <input type="radio" id="PM" name="job"
+            value="project_manager">
+          <label for="PM">Project Manager</label>
+        </div>
+        <div>
+          <input type="radio" id="SM" name="job"
+            value="scrum_master">
+          <label for="SM">Scrum Master</label>
+        </div>
+      </div>
+      <br>
+
+
+      <div>
+        <label for="lng_ch"> <b>Choses Language : </b></label>
+        <select name="language_choser" id="lng_ch">
+          <optgroup label="PHP">
+            <option value="v5.0">v5.0</option>
+            <option value="v7.0">v7.0</option>
+            <option value="v8.0">v8.0</option>
+          </optgroup>
+
+          <optgroup label="Paython">
+            <option value="v2.0" selected>v2.0</option>
+            <option value="v3.0">v3.0</option>
+            <option value="v3.9">v3.9</option>
+          </optgroup>
+        </select>
+      </div>
+      <hr>
+      <br>
+
+      <div>
+        <textarea rows="15" cols="30" 
+        placeholder="write you subject here"
+        ></textarea>
+      </div>
+
+      <hr>
+      <div>
+        <input type="reset" name="reset" id="emp" value="Empty">
+        <br>
+        <br>
+        <input type="submit" value="Send">
+      </div>
+
+    </form>
+  </body>
+
+
+</html>
