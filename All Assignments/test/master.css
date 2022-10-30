@@ -1,0 +1,33 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+ul {
+  list-style: none;
+}
+
+body {
+  padding: 50px;
+  background-color: white;
+}
+
+.user-input-fileds {
+  position: relative;
+  width: fit-content;
+  padding: 10px;
+  color: white;
+}
+.user-input-fileds label {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  color: black;
+  background-color: white;
+  padding: 0px 5px 0px 5px;
+}
+input {
+  border-radius: 6px;
+  border-color: #69a2a7;
+  height: 25px;
+}
